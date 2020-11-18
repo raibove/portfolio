@@ -64,7 +64,6 @@
 
 #about{
 	padding:0 0 10px 0;
-	background-color: #b4e7ff;
 }
 .about{
 	position: relative;
@@ -96,10 +95,14 @@
 	border-right:14px solid #10828C;
     border-radius: 50%
 }
-
+.column-about h3{
+	font-size: 27px;
+}
+.column-about p{
+	font-size: 22px;
+}
 #project{
 	margin:10px 0;
-	background-color: #fdd8ec;
 }
 .project{
 	color:#ff1493;
@@ -118,7 +121,6 @@
     position: relative;
     cursor: pointer;
     margin: 4px;
-
     flex: 0 0 auto;
 }
 
@@ -184,7 +186,7 @@
 }
 
 .container-project .card-project .face.face2 .content a{
-    margin: 15px 0 0;
+    margin: 15px 0 0 0;
     display:  inline-block;
     text-decoration: none;
     font-weight: 900;
@@ -199,8 +201,7 @@
 }
 
 #blog{
-	height: 60vh;
-	background-color:#f7c5fd;
+	height: 50vh;
 }
 .blog{
 	color:#dc00f9;
@@ -234,13 +235,12 @@
 }
 
 #contact{
-	margin:10px 0;
-	padding: 10px 0;
-	background-color: #ffcdcd;
+	padding-bottom:10px;
 	height:40vh;
+	background-color: rgb(233, 230, 230);
 }
 .contact{
-	color:#f90000;
+	color:#000;
 	text-align: center;
 	padding: 20px 0;
 }
