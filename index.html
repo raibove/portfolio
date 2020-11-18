@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<title>Shweta Kale</title>
+</head>
+<body>
+	<nav class="nav" id="myNav">
+		<a href="#home">Home</a>
+		<a href="#about">About</a>
+		<a href="#project">Project</a>
+		<a href="#blog">Blog</a>
+		<a href="#contact">Contact</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    		<i class="fa fa-bars"></i>
+  		</a>
+	</nav>
+
+	<header class="header">
+		<div class="overlay"></div>
+	   	<div class="container">
+	   		<div class="description ">
+	  		<h1>Hello, Welcome To My Portfolio</h1>
+	  		<p>
+			  I am Shweta Kale.<br>
+			  I am Machine Learning Enthusiastic and Web Developer
+			</p>
+	  	</div>
+	   	</div>
+ 	</header>
+
+
+	<div class="about" id="about">
+		<div class="container">
+		  <h1>About Me</h1>
+			<div class="row-about">
+				<div class="column-about about-left">
+					<img src="me.jpg">
+				</div>
+				<div class="column-about about-intro about-right">
+					<h3>Shweta Kale</h3>
+					<p>
+					   I am a third year Computer Engineering student studying at <a href="https://pccoe.bodhi-tree.in/">Pimpri Chinchwad College of Engineering. </a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="project">
+		<div class="container-project">
+
+			<div class="card-project">
+				<div class="face face1">
+					<div class="content">
+						<h1>Just Save It</h1>
+					</div>
+				</div>
+				<div class="face face2">
+					<div class="content">
+						<p>A chrome extension to save important profile links. I use it as it saves time to paste link when asked in any forms or easy to share.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="card-project">
+				<div class="face face1">
+					<div class="content">
+						<h1>Vozlist</h1>
+					</div>
+				</div>
+				<div class="face face2">
+					<div class="content">
+						<p>A voice controlled to-do list. It was a team project and made with simple HTML,CSS and JS.</p>
+					</div>
+				</div>
+			</div>	
+
+			<div class="card-project">
+				<div class="face face1">
+					<div class="content">
+						<h1>Omega Enteerprises</h1>
+					</div>
+				</div>
+				<div class="face face2">
+					<div class="content">
+						<p>It is a kitchen interiors website I made as a freelance project. It is the first website I hosted using a paid domain service.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="card-project">
+				<div class="face face1">
+					<div class="content">
+						<h1>Ball Tracking</h1>
+					</div>
+				</div>
+				<div class="face face2">
+					<div class="content">
+						<p>I worked on rubdgy ball detection and tracking using Computer Vision algorithm. I got an opportunity to implement different segmentation algorithms in this project including YOLO,SSD,FastRCNN.</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myNav");
+		  if (x.className === "nav") {
+		    x.className += " responsiveNav";
+		  } else {
+		    x.className = "nav";
+		  }
+		}
+	</script>
+</body>
+</html>
